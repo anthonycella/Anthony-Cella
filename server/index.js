@@ -1,8 +1,5 @@
 const express = require('express');
 const path = require('path');
-// eslint-disable-next-line no-unused-vars
-const db = require('../db/index');
-const controllers = require('./controllers/controllers');
 
 const app = express();
 
