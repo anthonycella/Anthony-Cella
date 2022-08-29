@@ -25,7 +25,7 @@ function Blinker() {
 const BlinkerComponent = styled.div`
   height: 30px;
   width: 3px;
-  background-color: black;
+  background-color: white;
 `;
 
 export default Blinker;

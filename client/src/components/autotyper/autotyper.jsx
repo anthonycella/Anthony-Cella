@@ -66,7 +66,7 @@ function AutoTyper({ words }) {
   const [[text, index, word, direction, interval], setText] = useState(['', 0, words[0], 'forward', 1500]);
   autoType(text, index, word, words, direction, setText, interval);
   return (
-    <OverallComponent onClick={onClick} className="search-bar">
+    <OverallComponent className="search-bar">
       <AutoTyperComponent className="search-bar">
         {text}
         <Blinker className="search-bar" />
@@ -85,6 +85,7 @@ const AutoTyperComponent = styled.div`
   margin-top: 2px;
   height: 36px;
   font-size: 34px;
+  color: white;
 `;
 
 const OverallComponent = styled.div`
@@ -97,8 +98,8 @@ const OverallComponent = styled.div`
 
 const BarComponent = styled.div`
   height: 3px;
-  width: 300px;
-  background-color: black;
+  width: 380px;
+  background-color: white;
 `;
 
 export default AutoTyper;
