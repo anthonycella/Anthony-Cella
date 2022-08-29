@@ -15,6 +15,6 @@ const TitleContainer = styled.div`
 `;
 
 const TitleText = styled.div`
-  color: blue;
+  color: white;
   font-size: 4em;
 `;
