@@ -1,15 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
 
-export default function Title() {
+export default function TitleContent() {
   return (
-    <TitleContainer>
+    <TitleContentContainer>
       <TitleText>Anthony Cella</TitleText>
-    </TitleContainer>
+    </TitleContentContainer>
   );
 }
 
-const TitleContainer = styled.div`
+const TitleContentContainer = styled.div`
   display: flex;
   justify-content: center;
 `;
