@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Title from "./components/title";
 import AutoTyper from "./components/autotyper/autotyper";
+import Experience from "./components/experience/experience";
 
 export default function App() {
   const autoTyperWords = [
@@ -14,6 +15,7 @@ export default function App() {
     <Application>
       <Title />
       <AutoTyper words={autoTyperWords} />
+      <Experience />
     </Application>
   );
 }
