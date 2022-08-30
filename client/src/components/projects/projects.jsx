@@ -1,15 +1,15 @@
 import React from "react";
 import styled from "styled-components";
 
-export default function Experience() {
+export default function Projects() {
   return (
-    <ExperienceComponent>
-      Experience
-    </ExperienceComponent>
+    <ProjectsComponent>
+      Projects
+    </ProjectsComponent>
   )
 }
 
-const ExperienceComponent = styled.div`
+const ProjectsComponent = styled.div`
   &: hover {
     background-color: #fff;
     color: #000;

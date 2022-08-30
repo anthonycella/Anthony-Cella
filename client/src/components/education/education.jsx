@@ -1,15 +1,15 @@
 import React from "react";
 import styled from "styled-components";
 
-export default function Experience() {
+export default function Education() {
   return (
-    <ExperienceComponent>
-      Experience
-    </ExperienceComponent>
+    <EducationComponent>
+      Education
+    </EducationComponent>
   )
 }
 
-const ExperienceComponent = styled.div`
+const EducationComponent = styled.div`
   &: hover {
     background-color: #fff;
     color: #000;
